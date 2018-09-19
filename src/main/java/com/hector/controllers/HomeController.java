@@ -17,5 +17,10 @@ public class HomeController {
       return "index";
    }
 
+   @GetMapping("/admin/dashboard")
+   public String dashboard(){
+     return "admin/dashboard";
+   }
+
 
 }
