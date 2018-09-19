@@ -12,8 +12,6 @@ public class UserController {
     @GetMapping("/users")
     public User index(){
         User user = new User();
-        user.setAge(30);
-        user.setName("刘伟");
         return  user;
     }
 }
