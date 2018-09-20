@@ -5,7 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
 
-public class UserTest {
+public class UserTest extends BaseTest {
 
     @Autowired
     private UserMapper userMapper;
